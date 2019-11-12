@@ -13,8 +13,5 @@ namespace BuildJenkins
         //Use chocolatey to download tools , this just like nuget package but for windows ,
         //This also sets the environment variable s during the install
         //go to https://chocolatey.org/ and install chocolatey (its one time installation)
-
-
-
     }
 }
