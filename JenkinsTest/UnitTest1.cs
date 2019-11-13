@@ -1,5 +1,4 @@
 ﻿using System;
-using BuildJenkins;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace JenkinsTest
@@ -10,7 +9,13 @@ namespace JenkinsTest
         [TestMethod]
         public void TestMethod1()
         {
-          Assert.AreEqual("First CICD", Program.CreateMessage(),"Failed to match string");
+          Assert.IsTrue(true,"Test Pass");
+        }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Assert.Fail("Test fail");
         }
     }
 }
