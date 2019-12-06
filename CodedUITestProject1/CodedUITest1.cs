@@ -17,11 +17,7 @@ namespace CodedUITestProject1
     /// </summary>
     [CodedUITest]
     public class CodedUITest1
-    {
-        public CodedUITest1()
-        {
-        }
-
+    {        
         [TestMethod]
         public void CodedUITestMethod1()
         {
