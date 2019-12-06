@@ -35,6 +35,12 @@ namespace CodedUITestProject1
         {
             Assert.Fail("Shata failed");
         }
+        [TestMethod]
+        public void TestMethod4()
+        {
+            Assert.IsTrue(true);
+        }
+
 
         #region Additional test attributes
 
