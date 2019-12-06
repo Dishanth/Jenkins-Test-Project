@@ -19,15 +19,21 @@ namespace CodedUITestProject1
     public class CodedUITest1
     {        
         [TestMethod]
-        public void CodedUITestMethod1()
+        public void TestMethod1()
         {
             Assert.IsTrue(true);
         }
 
         [TestMethod]
-        public void CodedUITestMethod2()
+        public void TestMethod2()
         {
             Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            Assert.Fail("Shata failed");
         }
 
         #region Additional test attributes
