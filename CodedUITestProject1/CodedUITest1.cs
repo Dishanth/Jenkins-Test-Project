@@ -15,7 +15,7 @@ namespace CodedUITestProject1
     /// <summary>
     /// Summary description for CodedUITest1
     /// </summary>
-    [CodedUITest]
+    [TestClass]
     public class CodedUITest1
     {        
         [TestMethod]
